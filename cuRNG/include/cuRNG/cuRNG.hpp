@@ -9,12 +9,12 @@
  ***** Constants *****
  *********************/
 
-// To modify the coefficients of the generators "MRG31" and "MWC32", it is necessary to
-// change the following constants as well as the matrices in the file "utilities.hpp"
-// and the vectors in the member functions "nextStream" and "nextSubstream" below.
+// To change the coefficients of the generators MRG31 and MWC32, update the constants below.
+// Additionally, the vectors in the member functions "nextStream" and "nextSubstream" as well
+// as the matrices at the end of the file "utilities.hpp" must also be updated.
 
-// To modify the moduli of the generators "MRG31" and "MWC32", more alterations are needed,
-// as the algorithm for the modulo operation will most likely require more calculations.
+// To change the moduli of the generators MRG31 and MWC32, more modifications are needed, as
+// the algorithm for the modulo operation will most likely require additional calculations.
 
 #define cuRNG_MRG31_a1 208960
 #define cuRNG_MRG31_a2 214748364
